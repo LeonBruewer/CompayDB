@@ -1,2 +1,4 @@
 ﻿CREATE VIEW [dbo].[viCompany]
-	AS SELECT Id, Name, CreationTime, DeleteTime FROM [Company]
+	AS SELECT Id, Name, CreationTime, DeleteTime
+	FROM [Company]
+	WHERE DeleteTime = null
