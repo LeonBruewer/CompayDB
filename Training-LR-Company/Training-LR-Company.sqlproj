@@ -57,14 +57,31 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Views" />
+    <Folder Include="Procedures" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Company.sql" />
-    <Build Include="Department.sql" />
-    <Build Include="viCompany.sql" />
-    <Build Include="viDepartment.sql" />
-    <Build Include="Employees.sql" />
-    <Build Include="viEmployees.sql" />
-    <Build Include="Address.sql" />
+    <Build Include="Views\viAddress.sql" />
+    <Build Include="Views\viCompany.sql" />
+    <Build Include="Views\viDepartment.sql" />
+    <Build Include="Views\viEmployee.sql" />
+    <Build Include="Tables\Employee.sql" />
+    <Build Include="Tables\Address.sql" />
+    <Build Include="Tables\Company.sql" />
+    <Build Include="Procedures\spUpdateAddress.sql" />
+    <Build Include="Procedures\spInsertCompany.sql" />
+    <Build Include="Procedures\spUpdateCompany.sql" />
+    <Build Include="Procedures\spInsertDepartment.sql" />
+    <Build Include="Procedures\spInsertAddress.sql" />
+    <Build Include="Procedures\spUpdateDepartment.sql" />
+    <Build Include="Procedures\spInsertEmployee.sql" />
+    <Build Include="Procedures\spUpdateEmployee.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Department.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Training-LR-Company.refactorlog" />
   </ItemGroup>
 </Project>

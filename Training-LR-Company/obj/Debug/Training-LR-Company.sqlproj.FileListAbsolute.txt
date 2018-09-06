@@ -4,3 +4,7 @@ C:\Users\LBruewer\source\repos\Training-LR-Company\Training-LR-Company\bin\Debug
 C:\Users\LBruewer\source\repos\Training-LR-Company\Training-LR-Company\obj\Debug\Training-LR-Company.sqlprojAssemblyReference.cache
 C:\Users\LBruewer\source\repos\Training-LR-Company\Training-LR-Company\obj\Debug\Training_LR_Company.dll
 C:\Users\LBruewer\source\repos\Training-LR-Company\Training-LR-Company\obj\Debug\Training_LR_Company.pdb
+C:\Users\LBruewer\source\repos\Training-LR-Company\Training-LR-Company\obj\Debug\Model.xml
+C:\Users\LBruewer\source\repos\Training-LR-Company\Training-LR-Company\obj\Debug\refactor.xml
+C:\Users\LBruewer\source\repos\Training-LR-Company\Training-LR-Company\obj\Debug\postdeploy.sql
+C:\Users\LBruewer\source\repos\Training-LR-Company\Training-LR-Company\obj\Debug\predeploy.sql
