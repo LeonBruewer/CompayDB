@@ -2,14 +2,13 @@
 (
 	@Gender int
 )
-RETURNS NVARCHAR
+RETURNS NVARCHAR(16)
 AS
 BEGIN
-IF (@Gender = 1)
-	RETURN 'männlich'
-IF (@Gender = 2)
-	RETURN 'weiblich'
-IF (@Gender = 3)
-	RETURN 'keine Angabe'
-RETURN @Gender
+RETURN case @Gender 
+			when 1 then 'männlich'
+			when 2 then 'weiblich'
+			when 3 then 'keine Angabe'
+			else ''
+		end
 END
