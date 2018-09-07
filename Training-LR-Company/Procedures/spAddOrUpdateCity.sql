@@ -2,7 +2,7 @@
 	@PostalCode int = 0,
 	@City int
 AS
-	IF ((SELECT COUNT(PostalCode) FROM City) <= 0)
+	IF ((SELECT COUNT(PostalCode) FROM City WHERE PostalCode = @PostalCode) <= 0)
 		INSERT INTO City(PostalCode, City)
 		VALUES(@PostalCode, @City)
 	ELSE
