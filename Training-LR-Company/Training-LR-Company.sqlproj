@@ -79,6 +79,8 @@
     <Build Include="Procedures\spInsertEmployee.sql" />
     <Build Include="Procedures\spUpdateEmployee.sql" />
     <Build Include="Functions\fnGender.sql" />
+    <Build Include="Tables\City.sql" />
+    <Build Include="Views\viCity.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Department.sql" />
