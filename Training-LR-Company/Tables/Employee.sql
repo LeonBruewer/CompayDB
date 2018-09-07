@@ -4,7 +4,7 @@
     [FirstName] NVARCHAR(256) NOT NULL, 
     [Surname] NVARCHAR(256) NOT NULL, 
     [BirthDate] DATETIME2 NOT NULL, 
-	[Gender] NVARCHAR(8) NOT NULL,
+	[Gender] INT NOT NULL,
 	[PhoneNumber] NVARCHAR(16) NOT NULL,
 	[CreationTime] DATETIME2 NOT NULL DEFAULT GETDATE(), 
     [DeleteTime] DATETIME2 NULL,
