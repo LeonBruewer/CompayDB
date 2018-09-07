@@ -81,6 +81,7 @@
     <Build Include="Functions\fnGender.sql" />
     <Build Include="Tables\City.sql" />
     <Build Include="Views\viCity.sql" />
+    <Build Include="Procedures\spAddOrUpdateCity.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Department.sql" />

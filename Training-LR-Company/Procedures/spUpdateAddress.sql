@@ -5,6 +5,6 @@
 	@Street nvarchar(256)
 AS
 	UPDATE Address
-	SET PostalCode = @PostalCode, City = @City, Street = @Street
+	SET PostalCode = @PostalCode, Street = @Street
 	WHERE Id = @Id
 RETURN 0
