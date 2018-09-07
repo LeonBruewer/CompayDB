@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[spInsertEmployee]
+﻿CREATE PROCEDURE [dbo].[spAddOrUpdateEmployee]
 	@FirstName nvarchar(256),
 	@Surname nvarchar(256),
 	@BirthDate datetime2(7),

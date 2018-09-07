@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[City]
+(
+	[PostalCode] INT NOT NULL PRIMARY KEY, 
+    [City] NVARCHAR(512) NOT NULL,
+	[CreationTime] DATETIME2 NOT NULL DEFAULT GETDATE(), 
+    [DeleteTime] DATETIME2 NULL
+)
