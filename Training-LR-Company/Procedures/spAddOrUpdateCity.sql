@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[spAddOrUpdateCity]
-	@PostalCode int = 0,
-	@City int
+	@PostalCode int null,
+	@City varchar(512) null
 AS
 	IF ((SELECT COUNT(PostalCode) FROM City WHERE PostalCode = @PostalCode) <= 0)
 		INSERT INTO City(PostalCode, City)

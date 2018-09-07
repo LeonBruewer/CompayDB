@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[spInsertDepartment]
+﻿CREATE PROCEDURE [dbo].[spAddOrUpdateDepartment]
 	@DepartmentName nvarchar(256),
 	@CompanyId int,
 	@ManagerId int

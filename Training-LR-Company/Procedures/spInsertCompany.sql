@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[spInsertCompany]
+﻿CREATE PROCEDURE [dbo].[spAddOrUpdateCompany]
 	@CompanyName nvarchar(256),
 	@AddressId int
 AS
