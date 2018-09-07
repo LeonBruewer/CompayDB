@@ -60,6 +60,7 @@
     <Folder Include="Tables" />
     <Folder Include="Views" />
     <Folder Include="Procedures" />
+    <Folder Include="Functions" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Views\viAddress.sql" />
@@ -77,6 +78,7 @@
     <Build Include="Procedures\spUpdateDepartment.sql" />
     <Build Include="Procedures\spInsertEmployee.sql" />
     <Build Include="Procedures\spUpdateEmployee.sql" />
+    <Build Include="Functions\fnGender.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Department.sql" />

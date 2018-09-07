@@ -2,7 +2,7 @@
 	@FirstName nvarchar(256),
 	@Surname nvarchar(256),
 	@BirthDate datetime2(7),
-	@Gender nvarchar(8),
+	@Gender int,
 	@PhoneNumber nvarchar(16),
 	@DepartmentId int,
 	@CompanyId int,
